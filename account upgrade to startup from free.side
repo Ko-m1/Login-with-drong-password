@@ -1,0 +1,175 @@
+{
+  "id": "54a3e2e4-16e0-4661-97f0-22080144349d",
+  "version": "2.0",
+  "name": "account upgrade",
+  "url": "https://test.skillsquirrel.com",
+  "tests": [{
+    "id": "ac8063ea-63fd-4765-858f-b9260bb9dd55",
+    "name": "Upgrade account from free to ",
+    "commands": [{
+      "id": "a80abd5f-8b44-4e0e-a5da-926512f66ffd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc27e823-88ba-411e-b757-94e8417aad61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2a2310c-8fa1-4080-a8dc-8696572978ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailAddressForLogin",
+      "targets": [
+        ["id=emailAddressForLogin", "id"],
+        ["css=#emailAddressForLogin", "css:finder"],
+        ["xpath=//input[@id='emailAddressForLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad67588-b883-4e53-ac7c-cc7c4ee79f00",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailAddressForLogin",
+      "targets": [
+        ["id=emailAddressForLogin", "id"],
+        ["css=#emailAddressForLogin", "css:finder"],
+        ["xpath=//input[@id='emailAddressForLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Kinleyom1145@gmail.com"
+    }, {
+      "id": "9e3731bd-dafe-482a-839a-9db5d9b4eb88",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df16d5d-0470-40be-8d09-03909f450170",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#loginButton > .MuiButton-label",
+      "targets": [
+        ["css=#loginButton > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='loginButton']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "907cc024-2dca-4d0f-9a27-36818aeeaf03",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Password1145@"
+    }, {
+      "id": "c5f030bd-bc24-4936-bbaf-1016cd7ccf59",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loginButton > .MuiButton-label",
+      "targets": [
+        ["css=#loginButton > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='loginButton']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "291df2d7-db34-4782-aaae-86c238b207be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAvatar-root",
+      "targets": [
+        ["css=.MuiAvatar-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/header/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//header/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8de5e6-ecaf-4591-ba11-6bbb6d5b34a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(2) > div:nth-child(2)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(2) > div:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda5386c-af05-47ff-b138-7fa3225fdbdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) div:nth-child(8) > div",
+      "targets": [
+        ["css=div:nth-child(3) div:nth-child(8) > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[3]/div/div[2]/div[8]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div[8]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20c5bd46-940c-492d-9442-e42b65bcebfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div > div",
+      "targets": [
+        ["css=div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div > div", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div[3]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24c7d506-a9b6-4dd4-95ed-41cb3e283611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.negativeButton",
+      "targets": [
+        ["css=.negativeButton", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e22e5852-84b6-4ec4-880b-146a4970170e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navLinks",
+      "targets": [
+        ["css=.navLinks", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/header/div/ul", "xpath:idRelative"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9b8d50f2-183e-41af-9f6f-296f269ff60c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ac8063ea-63fd-4765-858f-b9260bb9dd55"]
+  }],
+  "urls": ["https://test.skillsquirrel.com/"],
+  "plugins": []
+}

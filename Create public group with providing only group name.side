@@ -1,0 +1,171 @@
+{
+  "id": "e63bb1e3-85b7-44bb-8529-6e6e254f7085",
+  "version": "2.0",
+  "name": "Create public group from free account",
+  "url": "https://test.skillsquirrel.com/groups",
+  "tests": [{
+    "id": "782ba396-9707-4688-bc11-8e682e1ac44e",
+    "name": "Public group with only group name provided",
+    "commands": [{
+      "id": "190342ec-909a-450a-b9b3-c672c6eb2950",
+      "comment": "",
+      "command": "open",
+      "target": "https://test.skillsquirrel.com/groups",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afb8c251-4ee8-43f7-995c-029c82447658",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6d7e5db-3f34-46bf-98b9-4f156f6465eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.headeractiveClass > .headerNameMargin",
+      "targets": [
+        ["css=.headeractiveClass > .headerNameMargin", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/header/div/ul/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'GROUPS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9883aa1-2e96-4af6-ac93-5d7e168fcd28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(3) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(3) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Group')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3243707e-ebe1-41ab-ab2c-8c945cde9c5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nextBtn",
+      "targets": [
+        ["css=.nextBtn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74760e19-c380-4805-a14d-af0608991d83",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .gdgroupName",
+      "targets": [
+        ["css=div:nth-child(1) > .gdgroupName", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a0f4331-c714-4b4e-b77b-36d346c59e96",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(1) > .gdgroupName",
+      "targets": [
+        ["css=div:nth-child(1) > .gdgroupName", "css:finder"],
+        ["xpath=//input[@value='Test Cases']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "Test Cases"
+    }, {
+      "id": "10b09099-4fc9-4cd7-a87e-fca68d5ab0e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nextBtn",
+      "targets": [
+        ["css=.nextBtn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "693f84f6-c4c0-4590-90bc-2335db3c246f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nextBtn",
+      "targets": [
+        ["css=.nextBtn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "367ca7fb-9288-427f-8540-263d2e071245",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nextBtn",
+      "targets": [
+        ["css=.nextBtn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e666fc0-fa14-4ae4-9f68-abe250069a78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewBtn",
+      "targets": [
+        ["css=.previewBtn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d997d688-5333-45b7-a938-8b9695f393eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pgoverlay .MuiButton-label",
+      "targets": [
+        ["css=.pgoverlay .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Exit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e8b67b-3035-4782-9059-e1c51dd7a02e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nextBtn",
+      "targets": [
+        ["css=.nextBtn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]/div/div[4]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f24d83-1803-41f6-931b-bf6f7c178291",
+      "comment": "",
+      "command": "click",
+      "target": "css=.positiveButton",
+      "targets": [
+        ["css=.positiveButton", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6fb1709-1ae9-4e27-912e-0ea0e3ee76ac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["782ba396-9707-4688-bc11-8e682e1ac44e"]
+  }],
+  "urls": ["https://test.skillsquirrel.com/groups"],
+  "plugins": []
+}

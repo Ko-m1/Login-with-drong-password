@@ -1,0 +1,68 @@
+{
+  "id": "dfc23e5f-8a9f-4206-9d80-fc6f2ed78564",
+  "version": "2.0",
+  "name": "Sign up as guest",
+  "url": "https://test.skillsquirrel.com/",
+  "tests": [{
+    "id": "827289a1-b00b-4b98-a1b9-d48325d45e27",
+    "name": "Untitled",
+    "commands": [{
+      "id": "3304bfbc-ea6e-4e82-9b55-1df111555eec",
+      "comment": "",
+      "command": "open",
+      "target": "https://test.skillsquirrel.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "755aa36e-a413-4ba0-8e7a-5d4933437032",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1f25553-450c-4d1b-bb60-346b84d26647",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(5) > .MuiButton-label",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(5) > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue as Guest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb0cbd36-33a9-488d-9331-2cec1da727db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.popupGTitle > p",
+      "targets": [
+        ["css=.popupGTitle > p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome to Skill Squirrel!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57f479f-550a-4db3-81d8-98f6a5bd83db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.negativeGText",
+      "targets": [
+        ["css=.negativeGText", "css:finder"],
+        ["xpath=//div[10]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bfe31bfe-4014-4c3a-a836-c3124e0478b8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["827289a1-b00b-4b98-a1b9-d48325d45e27"]
+  }],
+  "urls": ["https://test.skillsquirrel.com/"],
+  "plugins": []
+}

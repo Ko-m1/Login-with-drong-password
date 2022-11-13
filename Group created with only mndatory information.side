@@ -1,0 +1,106 @@
+{
+  "id": "72e1e1ee-8fb0-4d14-811e-da2592dd92a7",
+  "version": "2.0",
+  "name": "low",
+  "url": "https://test.skillsquirrel.com/home",
+  "tests": [{
+    "id": "3a3ae1f4-2bf6-46e0-be32-cce284fb1d35",
+    "name": "low",
+    "commands": [{
+      "id": "c84c43eb-401e-4cfd-8d19-4943c01e00f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://test.skillsquirrel.com/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a0643ec-958c-4fd2-b725-c6205b77c660",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf17a8c9-5df1-4471-88ac-82e0c345f796",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAvatar-root",
+      "targets": [
+        ["css=.MuiAvatar-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/header/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//header/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4142a3c2-b31f-40bb-9b24-4fb019911b22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiListItem-root:nth-child(3)",
+      "targets": [
+        ["css=.MuiListItem-root:nth-child(3)", "css:finder"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'My Groups')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a861b5-1908-45fa-8483-3947c6fe3cfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .slanted",
+      "targets": [
+        ["css=div:nth-child(1) > .slanted", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[3]/div[6]/div/div[2]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05d01ff0-761d-479c-9852-ece2e34249fc",
+      "comment": "",
+      "command": "//type",
+      "target": "css=.gdgroupDescription > input",
+      "targets": [],
+      "value": "Testing with selenium by building test cases"
+    }, {
+      "id": "54a04758-714d-443b-b983-c166991c2697",
+      "comment": "",
+      "command": "//click",
+      "target": "id=gdgroupDescTexarea",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "057225c7-c4e0-4aa7-b694-047ade80088f",
+      "comment": "",
+      "command": "//type",
+      "target": "id=gdgroupDescTexarea",
+      "targets": [],
+      "value": "Anyone who wish to do testing whether manual or automation are welcome to join the group. Build different test cases"
+    }, {
+      "id": "79f11d39-d55c-44b2-a223-d4ca574aae72",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.nextBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2782aed2-03da-4403-b604-0c5b5bc7aae5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.positiveButton",
+      "targets": [
+        ["css=.positiveButton", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "37eb0b7d-a8a7-4080-a864-8db24fbef2a1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a3ae1f4-2bf6-46e0-be32-cce284fb1d35"]
+  }],
+  "urls": ["https://test.skillsquirrel.com/home"],
+  "plugins": []
+}

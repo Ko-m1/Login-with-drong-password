@@ -1,0 +1,99 @@
+{
+  "id": "2707ae13-4683-4956-a8ed-4af393b9216e",
+  "version": "2.0",
+  "name": "login without verifying email",
+  "url": "https://test.skillsquirrel.com/",
+  "tests": [{
+    "id": "01280850-c5d5-44fc-8e84-38eb4ba1a5ca",
+    "name": "login without verifying the email",
+    "commands": [{
+      "id": "88e2ee52-45b9-432e-8e1f-d6cf9b97afdb",
+      "comment": "",
+      "command": "open",
+      "target": "https://test.skillsquirrel.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d36ecfe4-98bb-4011-b571-d239b61af2dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87b24977-7465-40ea-9c1e-fa533dc1a4d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailAddressForLogin",
+      "targets": [
+        ["id=emailAddressForLogin", "id"],
+        ["css=#emailAddressForLogin", "css:finder"],
+        ["xpath=//input[@id='emailAddressForLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c655a644-ae13-44f0-ba44-e82674739859",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailAddressForLogin",
+      "targets": [
+        ["id=emailAddressForLogin", "id"],
+        ["css=#emailAddressForLogin", "css:finder"],
+        ["xpath=//input[@id='emailAddressForLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kinleyom1145@gmail.com"
+    }, {
+      "id": "52021572-c76e-4448-b824-d486a44b3ed5",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d1a5cf-c3f1-4a1b-851d-db3ea90f42e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Password1145@"
+    }, {
+      "id": "08079bf2-aff7-4569-b3f5-8a5463090498",
+      "comment": "",
+      "command": "click",
+      "target": "css=#loginButton > .MuiButton-label",
+      "targets": [
+        ["css=#loginButton > .MuiButton-label", "css:finder"],
+        ["xpath=//button[@id='loginButton']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "08c5bea3-b63b-4463-9a8c-50aa66c24230",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01280850-c5d5-44fc-8e84-38eb4ba1a5ca"]
+  }],
+  "urls": ["https://test.skillsquirrel.com/"],
+  "plugins": []
+}

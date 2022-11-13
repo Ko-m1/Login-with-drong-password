@@ -1,0 +1,82 @@
+{
+  "id": "da7f1333-d0d8-4776-b45d-62f6bc10517e",
+  "version": "2.0",
+  "name": "account setting",
+  "url": "https://test.skillsquirrel.com/home",
+  "tests": [{
+    "id": "2b944a4a-82e6-4bfa-8bc2-23610b994e01",
+    "name": "View payment history in the Account setting",
+    "commands": [{
+      "id": "130af22a-0113-4fa1-ab03-d9765cea87bb",
+      "comment": "",
+      "command": "open",
+      "target": "https://test.skillsquirrel.com/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1851b22b-a1dc-4705-9f58-3921270a536e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee0c7629-45a5-454a-97a1-c0cc4302b8c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiAvatar-root",
+      "targets": [
+        ["css=.MuiAvatar-root", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/header/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//header/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ea346a-d38f-49d7-b403-6a72623192bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButtonBase-root:nth-child(7)",
+      "targets": [
+        ["css=.MuiButtonBase-root:nth-child(7)", "css:finder"],
+        ["xpath=//li[7]", "xpath:position"],
+        ["xpath=//li[contains(.,'Account Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e3a2c07-bd3f-4912-985c-812064ace89d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.createPostTitle:nth-child(4)",
+      "targets": [
+        ["css=.createPostTitle:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "526aea30-9618-4700-a8a0-c298fd9b9c9d",
+      "comment": "",
+      "command": "//selectWindow",
+      "target": "handle=${win7105}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b86a06fe-dde0-4a53-979b-2fd7c1e8fd74",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.Text-color--gray:nth-child(1) > span",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04ca2066-cf0b-459a-9d7a-db7720db653e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b944a4a-82e6-4bfa-8bc2-23610b994e01"]
+  }],
+  "urls": ["https://test.skillsquirrel.com/home"],
+  "plugins": []
+}
